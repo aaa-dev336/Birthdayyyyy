@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A tiny pastel birthday world made especially for Egner."
+    />
+    <meta name="theme-color" content="#ffddec" />
+    <title>Happy Birthday, Egner! ♡</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-sparkles" aria-hidden="true">
+      <span>✦</span><span>♡</span><span>✿</span><span>☆</span><span>˚₊</span>
+      <span>✦</span><span>♡</span><span>✿</span><span>☆</span><span>˚₊</span>
+    </div>
+
+    <header class="site-header">
+      <a class="mini-logo" href="#top" aria-label="Back to the top">for egner <b>♡</b></a>
+      <nav aria-label="Birthday page">
+        <a href="#wishes">wishes</a>
+        <a href="#gallery">cutie corner</a>
+        <button class="tiny-button" type="button" data-open-surprise>
+          open gift <span aria-hidden="true">🎀</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap" aria-labelledby="birthday-title">
+        <div class="hero-copy">
+          <p class="date-tag"><span aria-hidden="true">✦</span> AUGUST 28 · BIRTHDAY EDITION</p>
+          <h1 id="birthday-title">Happy birthday,<br /><em>Egner</em></h1>
+          <p class="hero-message">
+            Today is officially your day — may it be soft, silly, sparkly,
+            and filled with all the little things that make you smile.
+          </p>
+          <div class="hero-actions">
+            <button class="button button-primary" type="button" data-open-surprise>
+              unwrap your surprise <span aria-hidden="true">♡</span>
+            </button>
+            <a class="button button-paper" href="#wishes">see your wishes ↓</a>
+          </div>
+          <div class="tiny-note" aria-label="A personal note">
+            <span class="tape" aria-hidden="true"></span>
+            <span aria-hidden="true">🖍️</span> handmade with a bigg love &amp; sprinkles
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="A pastel birthday collage">
+          <div class="doodle doodle-rainbow" aria-hidden="true">🌈</div>
+          <div class="doodle doodle-star" aria-hidden="true">★</div>
+          <div class="doodle doodle-candy" aria-hidden="true">🍬</div>
+          <div class="photo-frame main-photo">
+            <img
+              src="assets/miku-cutecore.jpg"
+              alt="A colorful pastel character surrounded by rainbows, hearts, and stars"
+            />
+          </div>
+          <div class="mini-sticker sticker-kitty">
+            <img src="assets/kitty-snack.jpg" alt="Cute cat-shaped wafer snack illustration" />
+          </div>
+          <div class="mini-sticker sticker-pusheen">
+            <img src="assets/replace2.jpg" alt="A cozy gray cat wearing toast" />
+          </div>
+          <span class="scribble scribble-one" aria-hidden="true">so loved!</span>
+          <span class="scribble scribble-two" aria-hidden="true">₊˚⊹♡</span>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div>
+          <span>HAPPY BIRTHDAY</span><b>♡</b><span>HAPPY BIRTHDAY</span><b>✦</b>
+          <span>HAPPY BIRTHDAY</span><b>♡</b><span>HAPPY BIRTHDAY</span><b>✦</b>
+        </div>
+      </div>
+
+      <section class="wishes wrap" id="wishes" aria-labelledby="wishes-title">
+        <div class="section-heading">
+          <p class="eyebrow">tiny wishes, huge love</p>
+          <h2 id="wishes-title">Your birthday wish list</h2>
+          <p>Three very important things the universe owes you this year.</p>
+        </div>
+
+        <div class="wish-grid">
+          <article class="wish-card wish-pink">
+            <span class="wish-number">01</span>
+            <span class="wish-icon" aria-hidden="true">🍓</span>
+            <h3>Sweet little moments</h3>
+            <p>Days that feel warm, easy, and full of unexpected reasons to smile.</p>
+            <span class="card-doodle" aria-hidden="true">♡ ♡ ♡</span>
+          </article>
+          <article class="wish-card wish-blue">
+            <span class="wish-number">02</span>
+            <span class="wish-icon" aria-hidden="true">☁️</span>
+            <h3>Dreams coming true</h3>
+            <p>Big dreams, tiny dreams, and every lovely adventure in between.</p>
+            <span class="card-doodle" aria-hidden="true">☆ ✦ ☆</span>
+          </article>
+          <article class="wish-card wish-yellow">
+            <span class="wish-number">03</span>
+            <span class="wish-icon" aria-hidden="true">🎂</span>
+            <h3>Maximum birthday magic</h3>
+            <p>Good people, great memories, and a suspicious amount of cake (*^▽^*).</p>
+            <span class="card-doodle" aria-hidden="true">✿ ✿ ✿</span>
+          </article>
+        </div>
+
+        <div class="wish-machine">
+          <div>
+            <span class="pixel-heart" aria-hidden="true">♥</span>
+            <p class="machine-label">TODAY'S LUCKY WISH</p>
+            <p class="machine-output" data-wish-output aria-live="polite">
+              a year full of gentle surprises
+            </p>
+          </div>
+          <button class="button button-primary" type="button" data-new-wish>
+            pick another <span aria-hidden="true">✦</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+        <div class="wrap">
+          <div class="section-heading section-heading-left">
+            <p class="eyebrow">certified cute collection</p>
+            <h2 id="gallery-title">A little corner of joy</h2>
+          </div>
+
+          <div class="photo-wall">
+            <figure class="polaroid polaroid-one" data-tilt>
+              <img src="assets/strawberry-dream.jpg" alt="A dreamy pink strawberry-themed character collage" />
+              <figcaption>strawberry dreams ♡</figcaption>
+            </figure>
+            <figure class="polaroid polaroid-two" data-tilt>
+              <img src="assets/cozy-friends.jpg" alt="Two cozy pastel animal friends with flowers and sweets" />
+              <figcaption>soft days ahead!</figcaption>
+            </figure>
+            <figure class="polaroid polaroid-three" data-tilt>
+              <img src="assets/pusheen-toast.jpg" alt="A cozy gray cat wearing toast" />
+              <figcaption>toast mode: on</figcaption>
+            </figure>
+            <div class="gallery-note">
+              <span aria-hidden="true">✦</span>
+              <p>Keep being wonderfully, unmistakably <strong>you.</strong></p>
+              <small>the world is cuter with you in it</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="letter wrap" aria-labelledby="letter-title">
+        <div class="letter-image">
+          <img src="assets/replace.jpg" alt="Pastel friends resting together among flowers and treats" />
+          <span class="letter-stamp" aria-hidden="true">100%<br />loved</span>
+        </div>
+        <div class="letter-paper">
+          <span class="paperclip" aria-hidden="true">♡</span>
+          <p class="eyebrow">one last tiny note</p>
+          <h2 id="letter-title">Dear Egner,</h2>
+          <p>
+            I hope this new chapter brings you more confidence, more laughter,
+            and more moments that make you think, “I’m really glad I’m here.”
+            May life give you memories woth keepingg!!
+          </p>
+          <p>
+            You deserve a birthday that feels as special as you are. So eat the
+            cake, make a wish, and let yourself be celebrated today.
+          </p>
+          <p class="signature">with love, always ♡</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>made for egner’s BIRTHDAYYY day <span aria-hidden="true">🍥</span></p>
+      <button class="back-top" type="button" data-back-top>back to top ↑</button>
+    </footer>
+
+    <dialog class="surprise" data-surprise aria-labelledby="surprise-title">
+      <div class="surprise-inner">
+        <button class="dialog-close" type="button" data-close-surprise aria-label="Close surprise">×</button>
+        <span class="gift-bow" aria-hidden="true">🎀</span>
+        <p class="eyebrow">a secret birthday message</p>
+        <h2 id="surprise-title">You make life brighter, Egner!</h2>
+        <p>
+          May you find beauty wherever life takes you. You are so
+          appreciated, today and every day.
+        </p>
+        <div class="cake" aria-hidden="true">
+          <span class="candle">✦</span>
+          <span class="cake-top"></span>
+          <span class="cake-body">♡ &nbsp; ♡ &nbsp; ♡</span>
+          <span class="cake-plate"></span>
+        </div>
+        <button class="button button-primary" type="button" data-confetti>
+          more confetti! <span aria-hidden="true">✦</span>
+        </button>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
